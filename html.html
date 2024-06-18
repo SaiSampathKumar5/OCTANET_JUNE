@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="sssk.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">MovieTickets</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>BOOK MOVIE TICKETS</h1><br>
+            <h2>Some movies can truly change your life.</h2><br>
+            <a href="#movies" class="cta-button">Browse Movies</a><br>
+        <br><h2>LIST OF MOVIES SHOWING NOW</h2>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We provide the best movie booking experience with a wide selection of movies, easy booking process, and great customer service.</p>
+    </section>
+
+    <section id="movies" class="movies">
+        <h2>Now Showing</h2>
+        <div class="movie-grid">
+            <div class="movie-card">
+                <img src="OG.jpg" alt="movie 1">
+                <style>
+                img{
+                    height:300px;
+                    width:250px;
+                }
+                </style>
+                <h3>THEY CALL HIM OG</h3>
+                <p>OG revolves around a ruthless don named Ojas Gambheera "OG".</p>
+            </div>
+            <div class="movie-card">
+                <img src="DEVARA.jpg" alt="Movie 2">
+                <h3>DEVARA</h3>
+                <p>Weapons recite the story of one man and his terrifying tale.</p>
+            </div>
+            <!-- Add more movie cards as needed -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 MovieTickets. All rights reserved.</p>
+        </footer>
+</body>
+</html>

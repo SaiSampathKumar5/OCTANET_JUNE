@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.about, .movies, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.movie-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.movie-card {
+    margin: 1rem;
+    padding: 1rem;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 200px;
+}
+
+.movie-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+/* Heading colors */
+h1 {
+    color: #ff6347; /* Tomato */
+}
+
+h2 {
+    color: #4682b4; /* SteelBlue */
+}
+
+h3 {
+    color: #32cd32; /* LimeGreen */
+}
+</style>
